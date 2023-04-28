@@ -36,6 +36,7 @@ for _ in range(1):
         else:
             raise NameError("Invalid interpolation level")
         
+        new_name = ""
         c = 1
         while path.exists(new_path):
             new_name = str(c)+img
